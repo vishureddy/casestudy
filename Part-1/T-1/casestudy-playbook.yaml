@@ -1,0 +1,9 @@
+---
+- name: Case Study Playbook
+  hosts: all
+  become: true
+
+  roles:
+    - docker
+    - nginx
+    - logrotate
