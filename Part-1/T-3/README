@@ -1,0 +1,8 @@
+Change the location of the private key file based on where it was stored
+pkey = paramiko.RSAKey.from_private_key_file("<location where your ssh keys were present")
+
+
+Usage of above script
+
+python3 t3-script.py --hostname "xxxxx" --username "xxxxxx" --commands "ls" "ps -a" "du -f" ....
+
