@@ -1,0 +1,4 @@
+---
+#log_dir: '/var/log/nginx'
+#log_extension: 'log'
+#options: ["rotate 7","weekly",...]
