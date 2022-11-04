@@ -7,7 +7,7 @@
       options:
         - rotate 7
         - weekly
-        - size 10M
+        - size 100M
         - missingok
         - compress
         - create 0644 nginx nginx
